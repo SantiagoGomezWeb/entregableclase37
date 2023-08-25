@@ -84,8 +84,8 @@ const getMail = async (req, res) => {
     try {
         let result = await transport.sendMail({
             from: 'Luis ',
-            to: 'carlos8788@gmail.com',
-            subject: 'Correo de prueba',
+            to: 'santiago.daniel.gomez@gmail.com',
+            subject: 'Mail de prueba',
             html: '<h1>HOLA MUNDO</h1>',
             attachments: []
         })

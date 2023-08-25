@@ -27,6 +27,4 @@ export default class ProductsRouter extends BaseRouter {
 
 }
 
-
-
 // export default this

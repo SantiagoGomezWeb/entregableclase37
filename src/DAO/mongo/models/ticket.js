@@ -59,6 +59,4 @@ ticketSchema.pre('save', async function (next) {
 });
 
 
-
-
 export const ticketModel = model(ticketCollection, ticketSchema);

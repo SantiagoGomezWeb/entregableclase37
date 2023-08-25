@@ -32,5 +32,4 @@ const changeUserRole = async (req, res) => {
 
 export default {
     changeUserRole
-}
-
+};

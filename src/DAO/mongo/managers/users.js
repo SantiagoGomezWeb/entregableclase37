@@ -60,4 +60,4 @@ export default class UserManager {
     updatePassword = async (email, password) => {
         return userModel.findOneAndUpdate({email: email}, {password: password})
     }
-}
+};
