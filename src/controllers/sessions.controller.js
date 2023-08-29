@@ -83,7 +83,7 @@ const currentSession = (req, res) => {
 const getMail = async (req, res) => {
     try {
         let result = await transport.sendMail({
-            from: 'Luis ',
+            from: 'Santiago ',
             to: 'santiago.daniel.gomez@gmail.com',
             subject: 'Mail de prueba',
             html: '<h1>HOLA MUNDO</h1>',
